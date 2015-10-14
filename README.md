@@ -8,3 +8,5 @@ This is one of the projects I did to learn C# back in 2010. I touched it again i
 This application simulates a dynamic network of nodes which communicate via the [bittorrent protocol](https://en.wikipedia.org/wiki/BitTorrent). This basically means they all try to download some data, which they share among each other in pieces. This continues until everyone has all pieces, i.e. all nodes finished the download. While this is simple enough, the matter gets more complicated by new nodes entering or leaving the network, which means not all pieces may be available.
 
 Note that while this simulation superficially does resemble an actual network, it is not technically accurate. Many aspects were dumbed down or removed entirely. I'm not going to write a physically accurate TCP/IP simulation here.
+
+I got the idea from [mg8.org/processing/bt.html](http://mg8.org/processing/bt.html), which uses processing.js to achieve a similar effect. It also says the idea originated at [aphid.org/btsim](http://aphid.org/btsim/), which is defunct now.
